@@ -174,7 +174,7 @@ function noop(): void {}
       set(this, 'lastName', lastName);
     }
 
-    @fullNameMacro('firstName', 'lastName') fullName;
+    @fullNameMacro fullName;
   });
 
   let person = new Person();
